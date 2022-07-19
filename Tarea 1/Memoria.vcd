@@ -1,0 +1,363 @@
+$date
+	Fri Jun 17 00:11:57 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ns
+$end
+$scope module Registros_tb $end
+$var wire 32 ! data_salida2 [31:0] $end
+$var wire 32 " data_salida1 [31:0] $end
+$var reg 1 # clk $end
+$var reg 32 $ data_entrada [31:0] $end
+$var reg 16 % direccion1 [15:0] $end
+$var reg 16 & direccion2 [15:0] $end
+$var reg 1 ' escribir $end
+$scope module mem $end
+$var wire 16 ( address1 [15:0] $end
+$var wire 16 ) address2 [15:0] $end
+$var wire 1 # clk $end
+$var wire 32 * data_in [31:0] $end
+$var wire 1 ' write $end
+$var wire 32 + data_out2 [31:0] $end
+$var wire 32 , data_out1 [31:0] $end
+$var reg 8 - data [7:0] $end
+$scope begin register[0] $end
+$var wire 32 . tmp [31:0] $end
+$upscope $end
+$scope begin register[1] $end
+$var wire 32 / tmp [31:0] $end
+$upscope $end
+$scope begin register[2] $end
+$var wire 32 0 tmp [31:0] $end
+$upscope $end
+$scope begin register[3] $end
+$var wire 32 1 tmp [31:0] $end
+$upscope $end
+$scope begin register[4] $end
+$var wire 32 2 tmp [31:0] $end
+$upscope $end
+$scope begin register[5] $end
+$var wire 32 3 tmp [31:0] $end
+$upscope $end
+$scope begin register[6] $end
+$var wire 32 4 tmp [31:0] $end
+$upscope $end
+$scope begin register[7] $end
+$var wire 32 5 tmp [31:0] $end
+$upscope $end
+$scope begin register[8] $end
+$var wire 32 6 tmp [31:0] $end
+$upscope $end
+$scope begin register[9] $end
+$var wire 32 7 tmp [31:0] $end
+$upscope $end
+$scope begin register[10] $end
+$var wire 32 8 tmp [31:0] $end
+$upscope $end
+$scope begin register[11] $end
+$var wire 32 9 tmp [31:0] $end
+$upscope $end
+$scope begin register[12] $end
+$var wire 32 : tmp [31:0] $end
+$upscope $end
+$scope begin register[13] $end
+$var wire 32 ; tmp [31:0] $end
+$upscope $end
+$scope begin register[14] $end
+$var wire 32 < tmp [31:0] $end
+$upscope $end
+$scope begin register[15] $end
+$var wire 32 = tmp [31:0] $end
+$upscope $end
+$scope begin register[16] $end
+$var wire 32 > tmp [31:0] $end
+$upscope $end
+$scope begin register[17] $end
+$var wire 32 ? tmp [31:0] $end
+$upscope $end
+$scope begin register[18] $end
+$var wire 32 @ tmp [31:0] $end
+$upscope $end
+$scope begin register[19] $end
+$var wire 32 A tmp [31:0] $end
+$upscope $end
+$scope begin register[20] $end
+$var wire 32 B tmp [31:0] $end
+$upscope $end
+$scope begin register[21] $end
+$var wire 32 C tmp [31:0] $end
+$upscope $end
+$scope begin register[22] $end
+$var wire 32 D tmp [31:0] $end
+$upscope $end
+$scope begin register[23] $end
+$var wire 32 E tmp [31:0] $end
+$upscope $end
+$scope begin register[24] $end
+$var wire 32 F tmp [31:0] $end
+$upscope $end
+$scope begin register[25] $end
+$var wire 32 G tmp [31:0] $end
+$upscope $end
+$scope begin register[26] $end
+$var wire 32 H tmp [31:0] $end
+$upscope $end
+$scope begin register[27] $end
+$var wire 32 I tmp [31:0] $end
+$upscope $end
+$scope begin register[28] $end
+$var wire 32 J tmp [31:0] $end
+$upscope $end
+$scope begin register[29] $end
+$var wire 32 K tmp [31:0] $end
+$upscope $end
+$scope begin register[30] $end
+$var wire 32 L tmp [31:0] $end
+$upscope $end
+$scope begin register[31] $end
+$var wire 32 M tmp [31:0] $end
+$upscope $end
+$scope begin register[32] $end
+$var wire 32 N tmp [31:0] $end
+$upscope $end
+$scope begin register[33] $end
+$var wire 32 O tmp [31:0] $end
+$upscope $end
+$scope begin register[34] $end
+$var wire 32 P tmp [31:0] $end
+$upscope $end
+$scope begin register[35] $end
+$var wire 32 Q tmp [31:0] $end
+$upscope $end
+$scope begin register[36] $end
+$var wire 32 R tmp [31:0] $end
+$upscope $end
+$scope begin register[37] $end
+$var wire 32 S tmp [31:0] $end
+$upscope $end
+$scope begin register[38] $end
+$var wire 32 T tmp [31:0] $end
+$upscope $end
+$scope begin register[39] $end
+$var wire 32 U tmp [31:0] $end
+$upscope $end
+$scope begin register[40] $end
+$var wire 32 V tmp [31:0] $end
+$upscope $end
+$scope begin register[41] $end
+$var wire 32 W tmp [31:0] $end
+$upscope $end
+$scope begin register[42] $end
+$var wire 32 X tmp [31:0] $end
+$upscope $end
+$scope begin register[43] $end
+$var wire 32 Y tmp [31:0] $end
+$upscope $end
+$scope begin register[44] $end
+$var wire 32 Z tmp [31:0] $end
+$upscope $end
+$scope begin register[45] $end
+$var wire 32 [ tmp [31:0] $end
+$upscope $end
+$scope begin register[46] $end
+$var wire 32 \ tmp [31:0] $end
+$upscope $end
+$scope begin register[47] $end
+$var wire 32 ] tmp [31:0] $end
+$upscope $end
+$scope begin register[48] $end
+$var wire 32 ^ tmp [31:0] $end
+$upscope $end
+$scope begin register[49] $end
+$var wire 32 _ tmp [31:0] $end
+$upscope $end
+$scope begin register[50] $end
+$var wire 32 ` tmp [31:0] $end
+$upscope $end
+$scope begin register[51] $end
+$var wire 32 a tmp [31:0] $end
+$upscope $end
+$scope begin register[52] $end
+$var wire 32 b tmp [31:0] $end
+$upscope $end
+$scope begin register[53] $end
+$var wire 32 c tmp [31:0] $end
+$upscope $end
+$scope begin register[54] $end
+$var wire 32 d tmp [31:0] $end
+$upscope $end
+$scope begin register[55] $end
+$var wire 32 e tmp [31:0] $end
+$upscope $end
+$scope begin register[56] $end
+$var wire 32 f tmp [31:0] $end
+$upscope $end
+$scope begin register[57] $end
+$var wire 32 g tmp [31:0] $end
+$upscope $end
+$scope begin register[58] $end
+$var wire 32 h tmp [31:0] $end
+$upscope $end
+$scope begin register[59] $end
+$var wire 32 i tmp [31:0] $end
+$upscope $end
+$scope begin register[60] $end
+$var wire 32 j tmp [31:0] $end
+$upscope $end
+$scope begin register[61] $end
+$var wire 32 k tmp [31:0] $end
+$upscope $end
+$scope begin register[62] $end
+$var wire 32 l tmp [31:0] $end
+$upscope $end
+$scope begin register[63] $end
+$var wire 32 m tmp [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0x m
+b0x l
+b0x k
+b0x j
+b0x i
+b0x h
+b0x g
+b0x f
+b0x e
+b0x d
+b0x c
+b0x b
+b0x a
+b0x `
+b0x _
+b0x ^
+b0x ]
+b0x \
+b0x [
+b0x Z
+b0x Y
+b0x X
+b0x W
+b0x V
+b0x U
+b0x T
+b0x S
+b0x R
+b0x Q
+b0x P
+b0x O
+b0x N
+b0x M
+b0x L
+b0x K
+b0x J
+b0x I
+b0x H
+b0x G
+b0x F
+b0x E
+b0x D
+b0x C
+b0x B
+b0x A
+b0x @
+b0x ?
+b0x >
+b0x =
+b0x <
+b0x ;
+b0x :
+b0x 9
+b0x 8
+b0x 7
+b0x 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0x ,
+b0x +
+bx *
+bx )
+bx (
+0'
+bx &
+bx %
+bx $
+1#
+b0x "
+b0x !
+$end
+#5
+0#
+#10
+1#
+b0 !
+b0 +
+b111 &
+b111 )
+b0 "
+b0 ,
+b101 %
+b101 (
+#15
+0#
+#20
+1#
+#25
+0#
+#30
+1#
+1'
+b100 %
+b100 (
+b10101100111011011100101011111110 $
+b10101100111011011100101011111110 *
+#35
+0#
+#40
+1#
+0'
+#45
+0#
+#50
+1#
+b11011110101011011011111011101111 $
+b11011110101011011011111011101111 *
+b11 %
+b11 (
+#55
+0#
+#60
+1#
+#65
+0#
+#70
+1#
+#75
+0#
+#80
+1#
+#85
+0#
+#90
+1#
+#95
+0#
+#100
+1#
+#105
+0#
+#110
+1#
